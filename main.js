@@ -27,7 +27,7 @@ for (let i = 0; i < menu.length; i++) {
 //Hay alguna pizza que vaga menos de 390
 
 const precio = menu.some(menu => menu.precio > 390)
-console.log("Varias pizzas tienen un valor mayor a $390")
+console.log("todas las pizzas tienen un valor superir a $390")
 //Nombre y precios de las pizzas
 let precioSolo = []
 for (let i = 0; i < menu.length; i++) {
